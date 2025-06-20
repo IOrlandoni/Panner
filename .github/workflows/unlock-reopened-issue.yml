@@ -8,6 +8,6 @@ jobs:
   triage:
     runs-on: ubuntu-latest
     steps:
-    - uses: OSDKDev/unlock-issues@v1
+    - uses: IOrlandoni/unlock-issues@v1
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"

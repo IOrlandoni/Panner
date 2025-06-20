@@ -1,10 +1,10 @@
 <!-- <AspNetCore> -->
 <p align=center><kbd>
-    <b>ASP.NET Core WebAPI?</b> You should start with <a href="https://github.com/OSDKDev/Panner.AspNetCore"><b>Panner.AspNetCore</b></a>!
+    <b>ASP.NET Core WebAPI?</b> You should start with <a href="https://github.com/IOrlandoni/Panner.AspNetCore"><b>Panner.AspNetCore</b></a>!
 </kbd></p>
 <!-- </AspNetCore> -->
 
-# Panner [![Nuget](https://img.shields.io/nuget/v/Panner?label=NuGet&color=success)](https://www.nuget.org/packages/Panner) [![Coverage Status](https://img.shields.io/coveralls/github/OSDKDev/Panner)](https://coveralls.io/github/OSDKDev/Panner?branch=master)
+# Panner [![Nuget](https://img.shields.io/nuget/v/Panner?label=NuGet&color=success)](https://www.nuget.org/packages/Panner) [![Coverage Status](https://img.shields.io/coveralls/github/IOrlandoni/Panner)](https://coveralls.io/github/IOrlandoni/Panner?branch=master)
 **Clean**, **customizable** & **extensible** framework for the configuration, parsing and application of sorts and filters from a CSV.
 
 ---
