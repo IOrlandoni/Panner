@@ -7,7 +7,7 @@
 
     public static partial class IQueryableExtensions
     {
-        /// <summary>Applies order operations defined as <paramref name="particles"/>.</summary>
+        /// <summary>Applies the filter operations defined by <paramref name="particles"/>.</summary>
         /// <param name="source">The source.</param>
         /// <param name="particles">The particles.</param>
         /// <returns></returns>
@@ -40,7 +40,7 @@
     // Shortcut from IEnumerable<T>
     public static partial class IEnumerableExtensions
     {
-        /// <summary>Applies order operations defined as <paramref name="particles"/>.</summary>
+        /// <summary>Applies the filter operations defined by <paramref name="particles"/>.</summary>
         /// <typeparam name="TEntity">The type of the entity.</typeparam>
         /// <param name="source">The source.</param>
         /// <param name="particles"><typeparamref name="T"/></param>
