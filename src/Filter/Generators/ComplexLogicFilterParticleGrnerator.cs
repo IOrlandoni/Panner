@@ -20,9 +20,9 @@
         {
             input = input.Trim();
 
-            // Attempt to split the input by all "||" not enclosed in quotes or parenthesis.
-            Regex regex = new Regex("[||](?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))(?=(((?!\\)).)*\\()|[^\\(\\)]*$)");
-            var splitInput = regex
+            // Attempt to split the input by all "||" not enclosed in quotes or parentheses.
+            Regex splitRegex = new Regex("\\|\\|(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))(?=(((?!\\)).)*\\()|[^\\(\\)]*$)");
+            var splitInput = splitRegex
                 .Split(input)
                 .Where(x => !string.IsNullOrWhiteSpace(x));
 
