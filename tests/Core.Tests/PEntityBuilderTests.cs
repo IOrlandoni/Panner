@@ -8,7 +8,7 @@ namespace Core.Tests
     {
         private class WithField
         {
-            public int Field;
+            public int Field = 0;
         }
 
         private class Sample
